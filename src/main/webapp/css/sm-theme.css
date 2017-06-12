@@ -1,0 +1,150 @@
+.filter_divSearchBttn
+{
+	background: #62A149;
+	border-radius: 7px;
+	margin-right: 10px;
+	color:white;
+	cursor:pointer;
+}
+
+.filter_divClearBttn
+{
+	background: #E05919;
+	border-radius: 7px;
+	color:white;
+	cursor:pointer;
+}
+
+
+.actionsstyle
+{
+	background: #62A149;
+	border-radius: 7px;
+	margin:2px;
+	color:white;
+	cursor:pointer;
+}
+
+.clsAlignmentPg_togglebutton
+{
+	background: #62A149;
+	border-radius: 7px;
+	margin:2px;
+	color:white;
+	cursor:pointer;
+}
+
+.clsRefineSearchPg_Reset
+{
+	background: #E05919;
+	border-radius: 7px;
+	margin:2px;
+	color:white;
+	cursor:pointer;
+}
+
+.clsRefineSearchPg_VwDefaultMatches,.clsRefineSearchPg_FindMatches
+{
+	background: #62A149;
+	border-radius: 7px;
+	margin:2px;
+	color:white;
+	cursor:pointer;
+}
+
+.clsAlignmentPg_RefineSearchHldr 
+{
+	font-size: smaller;
+}
+.clsRefineSearchPg_SubjectSearchHldr
+{
+	font-size: smaller;
+}
+
+.clsAlignmentPg_RefineSearch
+{
+	background: #62A149;
+	border-radius: 7px;
+	margin:2px;
+	color:white;
+	cursor:pointer;
+}
+
+.clsAlignmentPg_previewBtn
+{
+	background: rgb(28, 148, 196);
+	border-radius: 7px;
+	margin:2px;
+	color:white;
+	cursor:pointer;
+}
+
+.clsuploadPg_CancelBtn
+{
+	background: #E05919 !important;
+	border-radius: 7px !important;
+	color:white;
+	cursor:pointer;
+}
+
+.clsuploadPg_uploadBtn
+{
+	background: #62A149 !important;
+	border-radius: 7px !important;
+	margin-right: 10px;
+	color:white;
+	cursor:pointer;
+}
+
+.clsCreateCourse_SubmitForAppr,.clscoursesPg_RefreshBtn
+{
+	background: #62A149 !important;
+	border-radius: 7px !important;
+	margin-right: 10px;
+	color:white;
+	cursor:pointer;
+}
+.clsCreateCourse_ResetFields
+{
+	background: #E05919 !important;
+	border-radius: 7px !important;
+	cursor: pointer;
+	color:white;
+	cursor:pointer;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor
+{
+	padding: .2em .4em !important;
+}
+
+.ui-jqgrid .ui-jqgrid-titlebar {
+	font-size: 14px !important;
+}
+
+.ui-jqgrid .ui-jqgrid-view {
+	font-size: 12px;
+}
+
+.ui-tabs .ui-state-disabled {
+	display: none !important;
+}
+
+.ui-widget-header {
+	border: 1px solid #03CEFF !important;
+	background:#8FE7FC !important;
+}
+
+fieldset {
+  border: 1px solid #32C6D0;
+  color: #072732 !important;
+}
+
+.clscoursesPg_FilterHldr,.clsObjExclRepPg_FilterHldr,.clsUnMappedRRPg_FilterHldr
+{
+	background-color: #DDFAFF;
+    font-size: small;
+}
+
+.ui-jqgrid-caption {
+  color: rgb(13, 52, 85) !important;
+}

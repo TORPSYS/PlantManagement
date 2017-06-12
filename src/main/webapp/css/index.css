@@ -1,0 +1,187 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0px !important;
+	padding: 0;
+	background: #fff;
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: auto;
+	height: auto;
+	background:#1f2533;
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 180px);
+	left: calc(60% - 400px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #01579B;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.header div span{
+	color: #49ba8e !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 185px);
+	left: calc(40% + 100px);
+	height: 150px;
+	width: 265px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 6px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 6px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]{
+	width: 260px;
+	height: 35px;
+	background: #49ba8e;
+	border: 1px solid #FFEAC8;
+	cursor: pointer;
+	border-radius: 8px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login span{
+	width: 49%;
+	height: 20px;
+	color: #EEF2FF;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 10px;
+	float:left;
+	text-align: right;
+}
+
+.login .clsPm_Login
+{
+	width: initial !important;
+	float:right !important;
+}
+
+.login .clsSm_CreateUser{
+	width:40%;
+	cursor: pointer;
+	float:left;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.login .clsSm_ForgotPwd,.login .clsPm_Login
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.login .clsSm_CreateUser:HOVER{
+	color: #FFFFFF;
+}
+
+.login .clsSm_ForgotPwd:HOVER,.login .clsPm_Login:HOVER{
+	background: #49BA8E;
+}
+
+.login input[type=submit]:hover{
+	background:#44C593;
+	color: #FFFFFF;
+}
+
+.login input[type=submit]:active{
+	opacity: 0.6;
+	
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+	
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+.clsRegSuccessMessage
+{
+	color: #49ba8e;
+	position: absolute;
+	top: calc(50% - 220px);
+	left: calc(50% - 225px);
+	font-size: 18px;
+	z-index: 1001;
+}

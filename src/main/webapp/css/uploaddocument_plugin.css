@@ -1,0 +1,21 @@
+.clsUploadDoc_divWrapper .clsCmm_fieldTitle {
+    width: 135px !important;
+}
+
+.clsUploadDoc_divWrapper .cifval_submit {
+    background: #49BA8E;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: inherit;
+    border: 0px;
+}
+
+.clsUploadDoc_divWrapper .clsUploadDoc_BtnCancel {
+	background: #c02c3a;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: inherit;
+    border: 0px;
+}

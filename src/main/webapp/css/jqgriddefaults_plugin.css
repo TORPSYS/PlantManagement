@@ -1,0 +1,70 @@
+.clsJqGridDefault_Wrapper
+{
+	padding-top:5px;
+	/*	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, pink),color-stop(1, #F4BCEC));
+	background: -moz-linear-gradient(linear,left bottom,left top,color-stop(0, pink),color-stop(1, #F4BCEC)); */	
+	border-radius:10px;
+	border: solid 1px #272627;
+	
+	
+	/* Fallback background color for non supported browsers 
+	background: #6191bf; 	
+	/* Firefox 3.6 */
+	/*background-image: -moz-linear-gradient(top, #1E5799, #7db9e8);*/
+	 background-image: -moz-linear-gradient(center top , pink, #F4BCEC);
+	/* Safari & Chrome */
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, pink),color-stop(1, #F4BCEC));
+	/* IE6–IE9 */ /* IE6 & IE7 */
+	filter:  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='pink', EndColorStr='#F4BCEC'); 
+	/* IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='pink', endColorstr='#F4BCEC')"; /* IE8 */  
+}
+
+.clsJqGridDefault_Table
+{
+	width:100%;
+	table-layout: fixed;
+}
+
+.clsJqGridDefault_Wrapper .ui-autocomplete-input
+{
+	width:35%;
+}
+
+.clsJqGridDefault_Wrapper .ui-button
+{
+	width:1.4em;
+}
+
+.clsJqGridDefault_TxtBx
+{
+	width:50%;
+}
+
+.clsJqGridDefault_Input
+{
+	width:50%;
+}
+
+.clsJqGridDefault_TD
+{
+	padding:5px;
+}
+
+.clsJqGridDefault_Lable
+{
+	float:left;
+	margin-top:5px;
+}
+.ui-jqgrid-title
+{
+	float: left;
+}
+body .ui-jqgrid .ui-jqgrid-title  {
+    margin: 0.4em 0px 0.2em;
+}
+.clsCifGridFav_FavSelBxDiv .ui-autocomplete-input
+{
+	padding: 0.50em 0 0.50em 0.45em;
+}
+ 

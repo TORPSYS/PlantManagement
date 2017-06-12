@@ -1,0 +1,103 @@
+.cifValError
+{  
+    display: block;
+    left: 300px;
+    position: absolute;
+    top: 300px;
+    z-index: 5000;
+    opacity: 0.87;
+    text-decoration:blink;
+}
+
+.cifValError .cifValErrorContent 
+{
+    background: none repeat scroll 0 0 #EE0101;
+    border: 2px solid #DDDDDD;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 6px #000000;
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 11px;
+    padding: 4px 10px;
+    position: relative;
+    width: 150px;
+    z-index: 5001;
+    opacity: 0.87;
+}
+
+.cifValError .cifValErrorArrow
+{
+    margin: -2px 0 0 13px;
+    position: relative;
+    width: 15px;
+    z-index: 5006;
+}
+
+.cifValError .cifValErrorArrow .line10 
+{
+    border: medium none;
+    width: 15px;
+}
+.cifValError .cifValErrorArrow .line9 
+{
+    border: medium none;
+    width: 13px;
+}
+.cifValError .cifValErrorArrow .line8 
+{
+    width: 11px;
+}
+.cifValError .cifValErrorArrow .line7 
+{
+    width: 9px;
+}
+.cifValError .cifValErrorArrow .line6 
+{
+    width: 7px;
+}
+.cifValError .cifValErrorArrow .line5 
+{
+    width: 5px;
+}
+.cifValError .cifValErrorArrow .line4 
+{
+    width: 3px;
+}
+.cifValError .cifValErrorArrow .line3 
+{
+    border-bottom: 0 solid #DDDDDD;
+    border-left: 2px solid #DDDDDD;
+    border-right: 2px solid #DDDDDD;
+    width: 1px;
+}
+
+.cifValError .cifValErrorArrow .line2
+{
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: medium none;
+    width: 3px;
+}
+.cifValError .cifValErrorArrow .line1 
+{
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: medium none;
+    width: 1px;
+}
+
+.cifValError .cifValErrorArrow div 
+{
+    background: none repeat scroll 0 0 #EE0101;
+    border-left: 2px solid #DDDDDD;
+    border-right: 2px solid #DDDDDD;
+    box-shadow: 0 2px 3px #444444;
+    display: block;
+    font-size: 0;
+    height: 1px;
+    line-height: 0;
+    margin: 0 auto;
+}
+
+.clsCifValErrorPositionClass
+{
+	position:relative;
+}

@@ -1,0 +1,111 @@
+ .register{
+	position: absolute;
+	top: calc(50% - 190px);
+	left: calc(50% - 100px);
+	height: 150px;
+	width: 425px;
+	padding: 10px;
+	z-index: 1;
+}
+
+ .register input[type=text]{
+	width: 90%;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 3px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+ .register input[type=password]{
+	width: 90%;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 3px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+ .register input[type=submit]{
+	width: 100%;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #FFAB1E;
+	font-family: 'Exo', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 5px;
+}
+
+ .register span{
+	width: 100%;
+	color: #FFFFFF;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	float:left;
+}
+
+ .register input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+ .register input[type=submit]:active{
+	opacity: 0.6;
+}
+
+ .register input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+ .register input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+ .register input[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+ .clsCmm_fieldRowWrap
+{
+	margin-bottom: 15px;
+	float:left;
+	width:100%;
+}
+ .clsCmm_fieldTitle
+{
+	float:left;
+	width:30%;
+}
+ .clsCmm_fieldInput
+{
+	float: left;
+	position: relative;
+	width:70%;
+}
+
+.clsCreateUser_Back
+{
+	cursor: pointer;
+	text-decoration: underline;
+}

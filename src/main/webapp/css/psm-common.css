@@ -1,0 +1,228 @@
+body
+{
+	margin: 0px !important;
+}
+#tabs,#admtabs
+{
+  float: left;
+  width: 98%;
+  box-shadow: 3px 3px 8px #888888;
+  margin-left: 0.8%;
+}
+.clsCmm_formWrapper
+{
+	padding: 10px;
+	float: left;
+	background: #DFEFFC;
+}
+.clsCmm_fieldRowWrap
+{
+	margin-bottom: 7px;
+	float:left;
+	width:100%;
+}
+.clsCmm_fieldTitle
+{
+	float:left;
+	padding:3px;
+	width:200px;
+}
+.clsCmm_fieldInput
+{
+	float: left;
+	position: relative;
+}
+.clsCmm_fieldInput span
+{
+	display: block;
+	padding: 3px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	/* background: #cccccc; */
+	background: rgb(222,239,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(222,239,255,1) 0%, rgba(152,190,222,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(222,239,255,1)), color-stop(100%,rgba(152,190,222,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(222,239,255,1) 0%,rgba(152,190,222,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deefff', endColorstr='#98bede',GradientType=0 ); /* IE6-9 */
+}
+.clsCmm_fieldInput INPUT[type="text"],.clsCmm_fieldInput INPUT[type="password"]
+{
+	width: 350px;
+}
+.clsCmm_ButtonRow 
+{
+	width: 483px;
+}
+.clsCmm_ButtonRow INPUT
+{
+	float: right;
+}
+.error
+{
+	color: red;
+}
+
+.ui-datepicker
+{
+	display: none;
+}
+
+.ui-dialog
+{
+	clear:both;
+}
+.header
+{
+  	height: 45px;
+  	background: #1f2533;
+  	font-family: monospace;
+  	box-shadow: 0px 3px 5px #888888;
+  	margin-bottom: 20px;
+}
+
+.clsMasterRowObjPg_divFormWrapper fieldset  
+{
+		width: 96% !important;
+}
+.clsTorp_LogoutBtn,.clsAdmSM_LogoutBtn,.clsAdmSM_ChPwdBtn,.clsTorp_ChPwdBtn,.clsTorp_ChAccBtn
+{
+	margin-top: 7px;
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.header a[type="button"]
+{
+	cursor:pointer;
+	color:white;
+}
+
+.header a[type="button"]:hover
+{
+	background: #49ba8e;
+    line-height: 20px;
+}
+
+.header span
+{
+	font-size: xx-large;
+	color: #49ba8e;
+	font-weight: bolder;
+	margin-left: 10px;
+	margin-top: 6px;
+    float: left;
+}
+
+#idSmAdm_UserName,#idTorp_UserName
+{
+	font-size: 16px;
+}
+.clsCharLImitTbl tr
+{
+	border: 1px solid;
+}
+.clsCharLImitTbl td
+{
+	border: 1px solid;
+}
+
+.ui-jqgrid tr.jqgrow td {
+	word-wrap: break-word !important;
+}
+
+#tabs.ui-widget-header
+{
+	background: #7986CB;
+}
+
+.clsJqGridSortAscending
+{
+	background: yellowgreen;
+}
+.clsJqGridSortAscendingImage
+{
+	background-image: url('images/ui-icons_454545_256x240.png');
+	background-position: 0px -1px;
+	height: 15px;
+	width: 15px;
+	position: absolute;
+}
+.clsJqGridSortDescending
+{
+	background: lightcoral;
+}
+.clsJqGridSortDescendingImage
+{
+	background-image: url('images/ui-icons_454545_256x240.png');
+	background-position: -65px -1px;
+	height: 15px;
+	width: 15px;
+	position: absolute;
+}
+
+.filter_row
+{
+  width: 100%;
+  float: left;
+  margin-top:1px;
+  font-size: small;
+}
+.filter_divElemt
+{
+  width: 25%;
+  float: left;
+  padding-bottom: 3px;
+}
+.filter_divLbl
+{
+  width: 35%;
+  float: left;
+}
+
+.deleteactionsstyle
+{
+	color: white;
+	cursor:pointer;
+    background-color: #EE5325;
+    border: 0px;
+    font-size: small !important;
+    margin-right: 2px !important;
+}
+
+.editactionsstyle
+{
+	color: white;
+	cursor:pointer;
+    background-color: #517BD7;
+    border: 0px;
+    font-size: small !important;
+    margin-right: 2px !important;
+}
+
+.actionsstyle
+{
+	color: white;
+	cursor:pointer;
+    background-color: #42A82F;
+    border: 0px;
+    font-size: small !important;
+    margin-right: 2px !important;
+}
+
+.saveactionsstyle
+{
+	color: white;
+	cursor:pointer;
+    background-color: #37A0B0;
+    border: 0px;
+    font-size: small !important;
+    margin-right: 2px !important;
+}
+
+
+
