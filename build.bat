@@ -1,0 +1,1 @@
+mvn -o -s .\settings.xml -o clean package 
