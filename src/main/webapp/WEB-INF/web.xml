@@ -1,0 +1,86 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TestServlet</servlet-name>
+  	<display-name>TestServlet</display-name>
+  	<description></description>
+  	<servlet-class>
+  	com.qsolved.test.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServiceRouter</servlet-name>
+  	<display-name>ServiceRouter</display-name>
+  	<description></description>
+  	<servlet-class>
+  	com.ciflink.webframework.servicehandler.ServiceRouter</servlet-class>
+    <init-param>
+      <param-name>primaryDatasource</param-name> 
+      <param-value>jdbc/postgres</param-value> 
+    </init-param>
+    <init-param>
+      <param-name>SERVERID</param-name> 
+      <param-value>srvr1</param-value> 
+    </init-param>
+     <init-param>
+      <param-name>TMPDOWNLOADDIR</param-name> 
+      <param-value>c:/tmp</param-value> 
+    </init-param>    
+  	 <init-param>
+      <param-name>FILESTORAGEDIR</param-name> 
+      <param-value>c:/tmp/filestorage</param-value> 
+    </init-param>
+    <init-param>
+      <param-name>FILESTORAGETYPE</param-name> 
+      <param-value>DB</param-value> 
+    </init-param> 
+    <init-param>
+      <param-name>MODELSDIR</param-name> 
+      <param-value>c:/tmp/uploadedmodels</param-value> 
+    </init-param>  	
+  </servlet>
+  <servlet>
+  	<servlet-name>PushServlet</servlet-name>
+  	<display-name>PushServlet</display-name>
+  	<description></description>
+  	<servlet-class>
+  	com.ciflink.webframework.pushservice.endpoints.PushServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BroadcastMessageServlet</servlet-name>
+  	<display-name>BroadcastMessageServlet</display-name>
+  	<description></description>
+  	<servlet-class>
+  	com.ciflink.webframework.pushservices.BroadcastMessageServlet</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+  	<servlet-name>TestServlet</servlet-name>
+  	<url-pattern>/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServiceRouter</servlet-name>
+  	<url-pattern>/ServiceRouter/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PushServlet</servlet-name>
+  	<url-pattern>/pushservice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BroadcastMessageServlet</servlet-name>
+  	<url-pattern>/BroadcastMessageServlet</url-pattern>
+  </servlet-mapping>
+  
+<resource-ref>
+ <description>postgreSQL Datasource example</description>
+ <res-ref-name>jdbc/postgres</res-ref-name>
+ <res-type>javax.sql.DataSource</res-type>
+ <res-auth>Container</res-auth>
+</resource-ref>
+
+
+
+
+</web-app>
